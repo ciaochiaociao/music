@@ -1,0 +1,20 @@
+#chord-container {
+	background-color: cyan;
+	position: relative;
+}
+
+#chords {
+	background-color: darkgrey;
+	position: absolute;
+}
+
+#display-area {
+	display: none;
+}
+
+#chords span {
+	display: inline-block;
+	background: green;
+	text-align: center;
+	vertical-align: top;
+}

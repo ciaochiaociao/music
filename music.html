@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>跟著音樂「刷」起來！</title>
+	<link rel="stylesheet" href="style.css"/>
+	<script src="music.js"></script>
+</head>
+<body>
+<form>
+	請輸入節拍速度(bpm, 一分鐘幾拍):<input type="number" name="bpm" id="bpm"><br>
+	請輸入和絃進行：<br><textarea rows="15" cols="40" id="tabs"></textarea><br>
+	<input type="button" onclick="start()" value="確認">
+</form>
+<div id="display-area">
+	<div id="chord-container">
+		<div id="chords"></div>
+	</div>
+</div>
+</body>
+</html>
